@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    /* overflow-x: hidden; */
+    background:linear-gradient(to right,rgb(255,255,255),rgb(199, 233, 144));
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.nav-container{
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.logo span{
+    color: rgb(9, 18, 1);
+    text-shadow: 0 0 10px rgb(231, 242, 135); 
+}
+
+.menu-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.menu-list .link a{
+    position: relative;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transform: 0.3s linear;
+}
+
+.link a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.contact-btn{
+    color: black;
+    font-size: 1.2rem;
+    padding: 1.2vh 1.5vw; 
+    border-radius: 20px;
+    border: none;
+
+    
+}
+.contact-btn:hover{
+        color: white;
+    background-color: antiquewhite;
+}
+.cancel{
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 12px;
+    color: black;
+    font-size: 2rem;
+    display: none;
+
+}
+
+.Dropdown{
+    z-index: 100; 
+    position: absolute;
+    top: 0;
+}
