@@ -70,7 +70,7 @@ body{
     background-color:rgb(109,67, 0);
 }
  
-#menubtn{
+.hamburg , .cancel{
      cursor: pointer;
     position: absolute;
     right: 20px;
@@ -81,16 +81,6 @@ body{
 
 }
 
-.cancel{
-    cursor: pointer;
-    position: absolute;
-    right: 5vw;
-    top: 3vh;
-    color: white;
-    font-size: 2rem;
-    display: block;
-
-}
 
 .Dropdown{
     z-index: 100; 
@@ -253,7 +243,7 @@ body{
 .contant-text-part .typewrite{
     font-size: 1.7rem;
 }
-#menubtn{
+.hamburg , .cancel{
     cursor: pointer;
     position: absolute;
     right: 5vw;
