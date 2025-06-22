@@ -69,14 +69,26 @@ body{
         color:white;
     background-color:rgb(109,67, 0);
 }
-.cancel{
-    cursor: pointer;
+ 
+#menubtn{
+     cursor: pointer;
     position: absolute;
     right: 20px;
     top: 12px;
     color: black;
     font-size: 2rem;
     display: none;
+
+}
+
+.cancel{
+    cursor: pointer;
+    position: absolute;
+    right: 5vw;
+    top: 3vh;
+    color: white;
+    font-size: 2rem;
+    display: block;
 
 }
 
@@ -89,7 +101,7 @@ body{
     height: auto;
     backdrop-filter: brightness(40%) blur(3px);
     box-shadow: 0 0 20px black;
-    transition: 0.2s linear;
+    /* transition: 0.2s linear; */
 }
 
 .Dropdown .link a{
@@ -185,10 +197,71 @@ body{
     background-color:rgb(109,67, 0); ;
 }
 
-/* @media only screen and (max-widht:600px) {
+@media only screen and (max-width: 800px) {
+  body {
+    background:linear-gradient(to right,rgb(255, 255, 255),rgb(210, 210, 131));
     
-    body{
-        background-color: brown;
-    }
+  }
+  .logo{
+    position: absolute;
+    top: 20px;
+    left: 40vw;
+    font-size: 2rem;
+    
+    
+}
+.menu-list .link a{
+    display: none;
+}
+.contact-btn{
+    display: none;
+}
 
-} */
+  .main-container{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Image-part{
+       width: 100vw;
+    height: 60vh;
+    display: flex; 
+    justify-content: center;
+}
+.Image-part img{
+    height: 70vh;
+    width: 70vw;
+    border-radius: 50%;
+    padding: 0 3vw;
+}
+.contant-text-part{
+    width: 80vw;
+    height: 50vh;
+    padding: 15vh 0;
+    
+}
+.contant-text-part h1{
+    font-size: 3.3rem;
+}
+
+.contant-text-part p{
+    font-size: 1.3rem;
+    margin-top: 2vh;
+}
+.contant-text-part .typewrite{
+    font-size: 1.7rem;
+}
+#menubtn{
+    cursor: pointer;
+    position: absolute;
+    right: 5vw;
+    top: 3vh;
+    color: black;
+    font-size: 2rem;
+    display: block;
+
+}
+
+}
