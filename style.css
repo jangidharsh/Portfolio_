@@ -56,20 +56,28 @@ body {
 }
 
 .contact-btn {
-    border: 0.2rem solid rgb(109, 67, 0);
+    /* border: 0.2rem solid rgb(109, 67, 0); */
     font-size: 1.2rem;
-    padding: 1.2vh 1.5vw;
     border-radius: 20px;
     border: none;
-    color: rgb(109, 67, 0);
+    /* color: rgb(109, 67, 0); */
+    
 
 
 }
 
-.contact-btn:hover {
-    color: white;
-    background-color: rgb(109, 67, 0);
+#anchortag{
+    color: black;
+    text-decoration: none;
+    padding: 0.8vh 1.5vw;
+    background-color: white;
+    border-radius: 2vw;
 }
+
+#anchortag:hover{
+    background-color:rgb(109, 67, 0) ;
+}
+
 
 .hamburg,
 .cancel {
@@ -168,7 +176,7 @@ body {
     border: 0.2rem solid rgb(109, 67, 0);
     border-radius: 50%;
     color: rgb(109, 67, 0);
-    margin: 5px 10px;
+    margin: 3vh 0.5vw;
     font-size: 1.5rem;
     /* transition: 0.2s linear; */
 
@@ -186,6 +194,7 @@ body {
     border-radius: 1.5vw;
     border: none;
     margin-top: 2vh;
+    cursor: pointer;
 
 }
 
@@ -298,4 +307,18 @@ body {
 
     }
 
+}
+@media only screen and (max-width: 390px){
+    .logo {
+        position: absolute;
+        top: 20px;
+        left: 30vw;
+        font-size: 2rem;
+    }
+       .Image-part img {
+        height: 50vh;
+        width: 100vw;
+        border-radius: 50%;
+        padding: 0 3vw;
+    }
 }
