@@ -187,6 +187,22 @@ body{
     background-color:rgb(109,67, 0); ;
 }
 
+#about-btn {
+    position: absolute;
+    width: 20vw;
+    margin-top: 5vh;
+     backdrop-filter: brightness(40%) blur(3px);
+    box-shadow: 0 0 20px black;
+    line-height: 1.5;
+    font-size: 0.9rem;
+    font-weight: 100;
+    padding: 20px;
+    display: none;
+}
+#Skills-btn{
+    position: absolute;
+}
+
 @media only screen and (max-width: 800px) {
   body {
     background:linear-gradient(to right,rgb(255, 255, 255),rgb(210, 210, 131));
