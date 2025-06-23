@@ -85,7 +85,7 @@ body {
     position: absolute;
     right: 20px;
     top: 12px;
-    color: black;
+    color: white;
     font-size: 2rem;
     display: none;
 
@@ -299,25 +299,25 @@ body {
     .cancel {
         cursor: pointer;
         position: absolute;
-        right: 5vw;
-        top: 3vh;
-        color: black;
-        font-size: 2rem;
+        right: 7vw;
+        top: 6vh;
+        color: rgb(216, 216, 209);
+        font-size: 1.3rem;
         display: block;
 
     }
 
 }
-@media only screen and (max-width: 390px){
+@media only screen and (max-width: 402px){
     .logo {
         position: absolute;
         top: 20px;
-        left: 30vw;
+        left: 10vw;
         font-size: 2rem;
     }
        .Image-part img {
-        height: 50vh;
-        width: 100vw;
+        height: 60vh;
+        width: 70vw;
         border-radius: 50%;
         padding: 0 3vw;
     }
