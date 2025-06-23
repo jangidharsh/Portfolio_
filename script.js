@@ -43,3 +43,23 @@ linkabt.addEventListener("click",()=>{
 
     }
 })
+
+let linkskill = document.getElementById("Skills-link")
+let skillbtn = document.getElementById("Skills-btn")
+
+let revise =0;
+
+linkskill.addEventListener("click",()=>{
+    if(revise ===0){
+        skillbtn.style.display ="block";
+        skillbtn.style.color ="white"
+        console.log("clicked")
+        revise = 1
+    }
+    else{
+        skillbtn.style.display ="none"
+        console.log("again click")
+        revise = 0
+
+    }
+})
