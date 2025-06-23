@@ -142,7 +142,7 @@ body {
 .contant-text-part {
     width: 40vw;
     height: 50vh;
-    padding: 15vh 0;
+    padding: 5vh 0;
 
 }
 
@@ -263,7 +263,7 @@ body {
 
     .Image-part {
         width: 100vw;
-        height: 60vh;
+        height: 40vh;
         display: flex;
         justify-content: center;
     }
@@ -316,9 +316,9 @@ body {
         font-size: 2rem;
     }
        .Image-part img {
-        height: 60vh;
-        width: 70vw;
+        height: 50vh;
+        width: 60vw;
         border-radius: 50%;
-        padding: 0 3vw;
+     
     }
 }
