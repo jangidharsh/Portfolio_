@@ -32,7 +32,7 @@ body {
 
 .logo span {
     color: rgb(109, 67, 0);
-    text-shadow: 0 0 10px rgb(109, 67, 0);
+    /* text-shadow: 0 0 10px rgb(109, 67, 0); */
 }
 
 .menu-list {
@@ -150,10 +150,10 @@ body {
     font-size: 3rem;
 }
 
-.contant-text-part h1 span {
+/* .contant-text-part h1 span {
     color: rgb(109, 67, 0);
     text-shadow: 0 0 10px rgb(109, 67, 0);
-}
+} */
 
 /* .contant-text-part .typewrite{
     font-size: 1.5rem;
@@ -229,6 +229,33 @@ body {
        padding: 30px;
        display: none;
 }
+h1 span {
+    background-image: linear-gradient(-225deg, #614d18 0%, #0d0c08 29%, #705417 67%, #614711 100%);
+    background-size: 200% auto;
+    -webkit-background-clip : text;
+    -webkit-text-fill-color: transparent;
+    animation: ani 2s linear infinite;
+}
+@keyframes ani {
+    0% {
+        background-position: 0%;
+    }
+
+    100% {
+        background-position: 200%;
+    }
+}
+
+@keyframes typewrite {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+.typewrite {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typewrite 4s steps(40, end) 1s 1 normal both;
+}
 
 @media only screen and (max-width: 800px) {
     body {
@@ -263,7 +290,7 @@ body {
 
     .Image-part {
         width: 100vw;
-        height: 40vh;
+        height: 100vh;
         display: flex;
         justify-content: center;
     }
@@ -278,7 +305,7 @@ body {
     .contant-text-part {
         width: 80vw;
         height: 50vh;
-        padding: 15vh 0;
+        padding: 5vh 0;
 
     }
 
@@ -313,12 +340,45 @@ body {
         position: absolute;
         top: 20px;
         left: 10vw;
-        font-size: 2rem;
+        font-size: 1.4rem;
+    }
+        .Image-part {
+        width: 100vw;
+        height: 50vh;
+    
     }
        .Image-part img {
         height: 50vh;
-        width: 60vw;
+        width: 80vw;
         border-radius: 50%;
-     
+    }
+        .contant-text-part {
+        width: 80vw;
+        height: 50vh;
+        padding: 5vh 0;
+
+    }
+        .contant-text-part h1 {
+        font-size: 2.5rem;
+    }
+
+    .contant-text-part p {
+        font-size: 1rem;
+        margin-top: 2vh;
+    }
+
+    .contant-text-part .typewrite {
+        font-size: 1.2rem;
+    }
+        .hamburg,
+    .cancel {
+        cursor: pointer;
+        position: absolute;
+        right: 7vw;
+        top: 5vh;
+        color: rgb(216, 216, 209);
+        font-size: 1rem;
+        display: block;
+
     }
 }
