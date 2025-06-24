@@ -98,7 +98,7 @@ let revise2 =0;
 linkskill2.addEventListener("click",()=>{
     if(revise2 ===0){
         skillbtn2.style.display ="block";
-        skillbtn2.style.color ="white"
+        skillbtn2.style.color ="black"
         console.log("clicked")
         revise2 = 1
     }

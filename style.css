@@ -229,6 +229,9 @@ body {
     padding: 30px;
     display: none;
 }
+#Skills-btn2{
+    display: none;
+}
 
 h1 span {
     background-image: linear-gradient(-225deg, #614d18 0%, #0d0c08 29%, #705417 67%, #614711 100%);
@@ -350,21 +353,21 @@ h1 span {
         background: linear-gradient(to right, rgb(255, 255, 255), rgb(79, 79, 75));
         line-height: 1.5;
         font-size: 0.9rem;
-        font-weight: 100;
+        font-weight: 400;
         padding: 10vh;
         display: none;
 
     }
     #Skills-btn2{
-            position: absolute;
+        position: absolute;
         top: 0;
         width: 100vw;
         height: 100vh;
         background: linear-gradient(to right, rgb(255, 255, 255), rgb(79, 79, 75));
         line-height: 1.5;
         font-size: 0.9rem;
-        font-weight: 100;
-        padding: 10vh;
+        font-weight: 400;
+        padding: 10vh ;
         display: none;
     }
 }
