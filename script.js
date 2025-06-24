@@ -44,6 +44,32 @@ linkabt.addEventListener("click",()=>{
     }
 })
 
+let linkabt2 = document.getElementById("about-link2")
+let abtbtn2 = document.getElementById("about-btn2");
+let cancel2 = document.getElementsByClassName("cancel")
+
+// linkabt2.addEventListener("click",()=>{
+//     abtbtn2.style.display ="block"
+//     console.log("runnn")
+// })
+
+let repit2 =0;
+
+linkabt2.addEventListener("click",()=>{
+    if(repit2 ===0){
+        abtbtn2.style.display ="block";
+        abtbtn2.style.color ="black"
+        console.log("clicked")
+        repit2 = 1
+    }
+    else{
+        abtbtn2.style.display ="none"
+        console.log("again click")
+        repit2 = 0
+
+    }
+})
+
 let linkskill = document.getElementById("Skills-link")
 let skillbtn = document.getElementById("Skills-btn")
 
@@ -60,6 +86,26 @@ linkskill.addEventListener("click",()=>{
         skillbtn.style.display ="none"
         console.log("again click")
         revise = 0
+
+    }
+})
+
+let linkskill2 = document.getElementById("Skills-link2")
+let skillbtn2 = document.getElementById("Skills-btn2")
+
+let revise2 =0;
+
+linkskill2.addEventListener("click",()=>{
+    if(revise2 ===0){
+        skillbtn2.style.display ="block";
+        skillbtn2.style.color ="white"
+        console.log("clicked")
+        revise2 = 1
+    }
+    else{
+        skillbtn2.style.display ="none"
+        console.log("again click")
+        revise2 = 0
 
     }
 })
