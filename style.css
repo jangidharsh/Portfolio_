@@ -219,6 +219,33 @@ body {
     display: none;
 }
 
+#projects-btn {
+    position: absolute;
+    display: none;
+    width: 30vw;
+    margin-top: 5vh;
+    backdrop-filter: brightness(40%) blur(3px);
+    box-shadow: 0 0 20px black;
+    padding: 2vw;
+
+}
+
+#projects-btn li {
+    line-height: 1.5;
+    list-style: none;
+    list-style: none;
+}
+
+#projects-btn li a {
+    font-size: 0.9rem;
+    font-weight: 100;
+
+}
+
+#projects-btn2 {
+    display: none;
+}
+
 #Skills-btn {
     position: absolute;
     margin-top: 5vh;
@@ -232,10 +259,12 @@ body {
     padding: 30px;
     display: none;
 }
-#Skills-btn li{
+
+#Skills-btn li {
     list-style: none;
 }
-#Skills-btn2{
+
+#Skills-btn2 {
     display: none;
 }
 
@@ -364,7 +393,8 @@ h1 span {
         display: none;
 
     }
-    #Skills-btn2{
+
+    #Skills-btn2 {
         position: absolute;
         top: 0;
         width: 100vw;
@@ -373,8 +403,29 @@ h1 span {
         line-height: 1.5;
         font-size: 0.9rem;
         font-weight: 400;
-        padding: 10vh ;
+        padding: 10vh;
         display: none;
+    }
+
+    #projects-btn2 {
+        top: 0;
+        position: absolute;
+        display: none;
+        width: 100vw;
+        height: 100vh;
+        font-size: 0.9rem;
+        font-weight: 400;
+        padding: 10vh;
+        background: linear-gradient(to right, rgb(255, 255, 255), rgb(79, 79, 75));
+    }
+    #projects-btn2 li{
+        list-style: none;
+        font-size: 0.9rem;
+        margin-top: -5vh;
+        
+    }
+    #projects-btn2 li a{
+        color: black;
     }
 }
 

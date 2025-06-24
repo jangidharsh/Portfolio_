@@ -70,6 +70,57 @@ linkabt2.addEventListener("click",()=>{
     }
 })
 
+let projectslink = document.getElementById("projects-link");
+let projectsbtn = document.getElementById("projects-btn")
+
+// linkabt2.addEventListener("click",()=>{
+//     abtbtn2.style.display ="block"
+//     console.log("runnn")
+// })
+
+let repit3 =0;
+
+projectslink.addEventListener("click",()=>{
+    if(repit3 ===0){
+        projectsbtn.style.display ="block";
+        projectsbtn.style.color ="black"
+        console.log("clicked")
+        repit3 = 1
+    }
+    else{
+        projectsbtn.style.display ="none"
+        console.log("again click")
+        repit3 = 0
+
+    }
+})
+
+
+let projectslink2 = document.getElementById("projects-link2");
+let projectsbtn2 = document.getElementById("projects-btn2")
+
+// linkabt2.addEventListener("click",()=>{
+//     abtbtn2.style.display ="block"
+//     console.log("runnn")
+// })
+
+let repit4 =0;
+
+projectslink2.addEventListener("click",()=>{
+    if(repit4 ===0){
+        projectsbtn2.style.display ="block";
+        projectsbtn2.style.color ="black"
+        console.log("clicked")
+        repit4 = 1
+    }
+    else{
+        projectsbtn2.style.display ="none"
+        console.log("again click")
+        repit4 = 0
+
+    }
+})
+
 let linkskill = document.getElementById("Skills-link")
 let skillbtn = document.getElementById("Skills-btn")
 
